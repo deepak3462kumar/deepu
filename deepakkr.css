@@ -1,0 +1,126 @@
+ul li{
+    display: inline;}
+
+
+    nav{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top:0;
+
+    }
+    nav ul{
+    list-style-type: none;
+    }
+
+    nav ul a{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color:#000;
+    transition: 0.2s ease in;
+    font-size: 18px;
+    }
+
+    nav ul a:hover{
+    background-color: green;
+    color: blue;
+    }
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+    }
+
+    h1{
+    text-align: center;
+    color:red;
+    padding: 20px;
+    font-size: 70px;
+
+    }
+
+       h2{text-align: center;
+    color:black;
+    padding: 10px;
+    font-size: 30px;
+
+       }
+
+    nav{
+    background-color: limegreen;
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top:0;
+
+    }
+
+    nav ul{
+    list-style-type: none;
+    }
+
+    nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: blink;
+    color:black;
+    transition: 0.2s ease in;
+    font-size: 18px;
+    }
+
+    nav ul a:hover{
+    background-color: green;
+    color:black;
+    }
+
+    .iteams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px ;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    }
+
+    .iteam img{
+    height: 500px;
+    width: 355px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s ease;
+    }
+
+    .iteam img:hover{
+    transform: scale(1.05);
+    }
+
+    .iteam h4{
+    padding: 5px;
+    text-align: center;
+    }
+
+    .iteam button{
+
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+
+    }
+
+    .iteam button:hover  {
+    transform: scale(1.08);
+    animation-play-state:running;color: currentColor;
+
+         }
+
